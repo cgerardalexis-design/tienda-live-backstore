@@ -3,16 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tienda de Ropa</title>
+<img src="foto.jpg" width="100%">
+  <title>Live Backstore </title>
 
   <style>
     body { margin:0; font-family: Arial; background:#f5f5f5; }
 
-    header { background:#111; color:white; text-align:center; padding:15px; }
-
-    nav { display:flex; justify-content:center; background:#333; }
-    nav a { color:white; padding:10px; text-decoration:none; }
-
+    header { background:#111; color:#eeeeee ;text-align:center; padding:15px; }
+<nav>
+  <a href="#inicio">Inicio</a>
+  <a href="#productos">Productos</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+    nav { display:flex; justify-content:center; background:#222; }
+    nav a { color:white; padding:15px; text-decoration:none;
+font-weight: bold; 
+}
+nav a: hover {
+background:  #555;
+}
+<section id="inicio" style="padding:40px; text-align:center;">
+  <h2>Bienvenido a mi tienda</h2>
+  <p>Las mejores remeras del mercado</p>
+</section>
+<section id="productos" class="container">
+  <h2>Productos</h2>
+  <!-- acá van tus productos -->
+</section>
+<section id="contacto" style="padding:40px; text-align:center;">
+  <h2>Contacto</h2>
+  <p>Escribinos por WhatsApp</p>
+</section>
     .container { padding:20px; }
 
     .productos {
@@ -79,19 +100,89 @@
 <div class="container">
   <h2>Productos</h2>
 
-  <div class="productos">
+ <div class="productos">
 
-    <div class="producto">
-      <h3>Remera</h3>
-      <p>$5000</p>
-      <button onclick="agregar('Remera',5000)">Comprar</button>
-    </div>
+  <!-- PRODUCTO 1 -->
+  <div class="producto">
+    <img src="remera1.jpg" width="100%">
+    <h3>Remera</h3>
+    <p>$15000</p>
+    <button onclick="agregar('Remera',15000)">Comprar</button>
+  </div>
 
-    <div class="producto">
-      <h3>Buzo</h3>
-      <p>$12000</p>
-      <button onclick="agregar('Buzo',12000)">Comprar</button>
-    </div>
+  <!-- PRODUCTO 2 -->
+  <div class="producto">
+    <img src="remera2.jpg" width="100%">
+    <h3>Remera</h3>
+    <p>$15000</p>
+    <button onclick="agregar('Remera',15000)">Comprar</button>
+  </div>
+
+  <!-- PRODUCTO 3 -->
+  <div class="producto">
+    <img src="remera3.jpg" width="100%">
+    <h3>Remera</h3>
+    <p>$15000</p>
+    <button onclick="agregar('Remera',15000)">Comprar</button>
+  </div>
+
+  <!-- PRODUCTO 4 -->
+  <div class="producto">
+    <img src="remera4.jpg" width="100%">
+    <h3>Remera</h3>
+    <p>$15000</p>
+    <button onclick="agregar('Remera',15000)">Comprar</button>
+  </div>
+
+  <!-- PRODUCTO 5 -->
+  <div class="producto">
+    <img src="remera5.jpg" width="100%">
+    <h3>Remera</h3>
+    <p>$15000</p>
+    <button onclick="agregar('Remera',15000)">Comprar</button>
+  </div>
+
+  <!-- PRODUCTO 6 -->
+  <div class="producto">
+    <img src="remera6.jpg" width="100%">
+    <h3>Remera</h3>
+    <p>$15000</p>
+    <button onclick="agregar('Remera',15000)">Comprar</button>
+  </div>
+
+  <!-- PRODUCTO 7 -->
+  <div class="producto">
+    <img src="remera7.jpg" width="100%">
+    <h3>Remera</h3>
+    <p>$15000</p>
+    <button onclick="agregar('Remera',15000)">Comprar</button>
+  </div>
+
+  <!-- PRODUCTO 8 -->
+  <div class="producto">
+    <img src="remera8.jpg" width="100%">
+    <h3>Remera</h3>
+    <p>$15000</p>
+    <button onclick="agregar('Remera',15000)">Comprar</button>
+  </div>
+
+  <!-- PRODUCTO 9 -->
+  <div class="producto">
+    <img src="remera9.jpg" width="100%">
+    <h3>Remera</h3>
+    <p>$15000</p>
+    <button onclick="agregar('Remera',15000)">Comprar</button>
+  </div>
+
+  <!-- PRODUCTO 10 -->
+  <div class="producto">
+    <img src="remera10.jpg" width="100%">
+    <h3>Remera</h3>
+    <p>$15000</p>
+    <button onclick="agregar('Remera',15000)">Comprar</button>
+  </div>
+
+</div>
 
   </div>
 </div>
